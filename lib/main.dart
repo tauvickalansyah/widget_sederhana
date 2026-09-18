@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           leading: Icon(Icons.home),
-          title: Text('Flutter Demo'),
+          title: Text('Widget Bertingkat'),
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,
           centerTitle: true,
@@ -31,8 +31,8 @@ class MainApp extends StatelessWidget {
               child: Column(
                 verticalDirection: VerticalDirection.down,
                 children: [
-                  Image.network('https://example.com/image.jpg'),
-                  const Text('Judul Artikel', style: TextStyle(fontSize: 14,)),
+                  Image.asset('assets/gunungabu.png', width: 100, height: 100),
+                  const Text('Ini gambar Gunung Abu', style: TextStyle(fontSize: 14,)),
                 ],
               ),
             ),
